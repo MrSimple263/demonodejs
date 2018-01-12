@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>demo</title>
+    <script src="jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="xuli.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div id="login">
+        <div class="frm-login ">
+            <div style="font-size: 20px"><strong>Bí danh bạn muốn chat</strong></div>
+            <div class="row">
+                <div class="col-md-offset-4 col-md-4">
+                    <input class="form-control" type="text" id="username"/>
+                </div>
+                <div class="col-md-1" style="padding: 0">
+                    <button type="button" class="form-control" id="btn-login">Login</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="content-chat" style="height:100%">
+        <div class="row" style="height: 300px">
+            <div id="user-online" class="col-md-offset-1 col-md-3" style="height:100%">
+                <div style="text-align: center">Đang Online</div>
+                <div class="user-online-content" style="text-align: center">
+                    <div>aaa</div>
+                    <div>aaa</div>
+                    <div>aaa</div>
+                    <div>aaa</div>
+                </div>
+            </div>
+            <div id="chat" class="col-md-7" style="height:100%">
+                <div class="chat-content" style="height: 100%">
+                    <div>aaaaaaaaa</div>
+                </div>
+                <div class="message">
+                    <div class="col-md-9"><input type="text" class="form-control"></div>
+                    <div class="col-md-2"><button type="button" class="form-control">send</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

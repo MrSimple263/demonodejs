@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/SERVER_01/app.js" libraries="{demonodejs/SERVER_01/node_modules}" />
+    <file url="PROJECT" libraries="{express-DefinitelyTyped, socket.io-DefinitelyTyped}" />
+    <includedPredefinedLibrary name="Node.js Core" />
+  </component>
+</project>
